@@ -34,7 +34,7 @@ const CoinContextProvider = (props) => {
       setAllCoin(data);
     } catch (err) {
       console.error("Fetch error: ", err);
-      setError(err.message);  // Set error state
+    //   setError(err.message);  // Set error state
     }
   };
 
